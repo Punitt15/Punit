@@ -15,7 +15,7 @@ const Navbar = ({ theme, setTheme }) => {
         if (reference) {
             setReferenceWidth(reference.clientWidth);
         }
-        !theme && localStorage.setItem('theme', 'dark');
+        !theme && typeof window !== "undefined" && localStorage.setItem('theme', 'dark');
     }, []);
 
 

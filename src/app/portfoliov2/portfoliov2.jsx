@@ -15,7 +15,7 @@ import { cn } from "@/lib/utils"
 
 const PortfolioV2 = () => {
 
-    const [themeMode, setThemeMode] = useState(localStorage.getItem('theme') || 'light');
+    const [themeMode, setThemeMode] = useState(typeof window !== "undefined" ? localStorage.getItem('theme') : 'light');
 
     return (
         <main className={cn("flex flex-col items-center", themeMode === 'dark' ? 'text-white bg-[#111111]' : 'text-black')}>
