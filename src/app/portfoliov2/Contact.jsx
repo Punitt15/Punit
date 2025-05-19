@@ -22,8 +22,8 @@ const Contact = ({ theme }) => {
                             </div>
                             <div className='flex items-center gap-1'>
                                 <GitCommitVertical className='md:size-4 2xl:size-8' />
-                                <span className='text-xs md:text-sm 2xl:text-lg'>29, Ashish Bhawan, Sindhi Colony, Aburoad - 307026</span>
-                                {/* <span className='text-xs md:text-sm 2xl:text-lg'>29, Ashish Bhawan, Sindhi Colony, Aburoad - 307026</span> */}
+                                <span className='text-xs md:text-sm 2xl:text-lg'>B-502, Galaxy 88, Degham Road, Nava Naroda, Ahmedabad - 382330</span>
+                                {/* <span className='text-xs md:text-sm 2xl:text-lg'>B-502, Galaxy 88, Degham Road, Nava Naroda, Ahmedabad - 382330</span> */}
                             </div>
                         </div>
                         <div className='hidden gap-4 md:flex'>
@@ -51,7 +51,9 @@ const Contact = ({ theme }) => {
                     <div className='overflow-hidden rounded-2xl'>
                         <iframe
                             className="filter grayscale invert w-full h-64 md:h-full"
-                            src="https://maps.google.com/maps?hl=en&amp;q=Aburoad&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed">
+                            src="https://maps.google.com/maps?hl=en&q=Ahmedabad&t=&z=14&ie=UTF8&iwloc=B&output=embed"
+                            loading="lazy" 
+                        >
                         </iframe>
                     </div>
                     <div className='flex gap-4 md:hidden'>

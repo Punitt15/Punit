@@ -65,7 +65,7 @@ const Bio = ({ theme })=>{
                         duration: 1
                     },
                     className: "text-sm md:text-base md:font-light 2xl:font-normal 2xl:text-lg",
-                    children: "Software Developer with over 3 years of experience as MERN Stack Developer, eager to leverage technical expertise and problem-solving skills in a dynamic, growth-oriented environment. Seeking a full-time opportunity to contribute to innovative projects and collaborate with talented teams to deliver high-quality software solutions."
+                    children: "Software Developer with over 3 years of experience as React Developer, eager to leverage technical expertise and problem-solving skills in a dynamic, growth-oriented environment. Seeking a full-time opportunity to contribute to innovative projects and collaborate with talented teams to deliver high-quality software solutions."
                 }, void 0, false, {
                     fileName: "[project]/src/app/portfoliov2/Bio.jsx",
                     lineNumber: 10,
@@ -384,7 +384,7 @@ const Contact = ({ theme })=>{
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                 className: "text-xs md:text-sm 2xl:text-lg",
-                                                children: "29, Ashish Bhawan, Sindhi Colony, Aburoad - 307026"
+                                                children: "B-502, Galaxy 88, Degham Road, Nava Naroda, Ahmedabad - 382330"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/portfoliov2/Contact.jsx",
                                                 lineNumber: 25,
